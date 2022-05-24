@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+form input, form textarea{
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border:1px solid #ccc;
+}
+
+
+img{
+  max-width: 100px;
+}
